@@ -60,9 +60,13 @@ function plus2Func(){
     document.getElementById("subTotalFinal").innerHTML = subTotal + 59;
     
 }
+ const remove1  = document.getElementById("remove1");
+const  remove2  = document.getElementById("remove2");
 
-
-
-
-
+remove1.addEventListener("click",function(){
+    document.getElementById("cartItem1").style.display = "none";
+})
+remove2.addEventListener("click",function(){
+    document.getElementById("cartItem2").style.display = "none";
+})
 
